@@ -1,5 +1,5 @@
 from PIL import Image
-
+# Pixal manipulation program by - Shaik Abbu Bakar Siddik 
 def encrypt_image(input_path, output_path, key):
     img = Image.open(input_path)
     pixels = img.load()
